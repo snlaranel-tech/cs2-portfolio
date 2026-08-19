@@ -1,14 +1,17 @@
 import math
 
+#Enter desired units
 x1 = float(input("Enter x1: "))
 y1 = float(input("Enter y1: "))
 x2 = float(input("Enter x2: "))
 y2 = float(input("Enter y2: "))
 
+#Calculate distance
 distance = math.sqrt(math.pow(x2 - x1, 2) + math.pow(y2 - y1, 2))
 #sqrt() is a function that gets the square root of a number.
 #pow() is a function that raises a number to a given power.
 
+#Display results of calculations
 print("The distance between the two points is:", round(distance, 2))
 
 #Reflection
