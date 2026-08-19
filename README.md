@@ -3,5 +3,5 @@
 ## 8 - Dahlia
 
 LINKS: 
->[Aranel_Shiery_Distance.py] (q1/Aranel_Shiery_Distance.py)
+[Aranel_Shiery_Distance.py] (q1/Aranel_Shiery_Distance.py)
 [hello.py](q1/hello.py)
