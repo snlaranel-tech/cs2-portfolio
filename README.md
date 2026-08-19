@@ -3,6 +3,6 @@
 ## 8 - Dahlia
 
 LINKS: 
-https://github.com/snlaranel-tech/cs2-portfolio/tree/main/q1
-https://github.com/snlaranel-tech/cs2-portfolio/blob/main/q1/Aranel_Shiery_Distance.py
-https://github.com/snlaranel-tech/cs2-portfolio/blob/main/q1/hello.py
+>[https://github.com/snlaranel-tech/cs2-portfolio/tree/main/q1
+>[https://github.com/snlaranel-tech/cs2-portfolio/blob/main/q1/Aranel_Shiery_Distance.py
+>[https://github.com/snlaranel-tech/cs2-portfolio/blob/main/q1/hello.py
