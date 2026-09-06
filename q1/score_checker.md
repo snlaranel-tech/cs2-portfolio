@@ -29,4 +29,4 @@ ELSE IF score >= 0 AND score < 75 THEN
   
 END
 
-Part 4: [score_checker.py](q1/score_checker.py)
+Part 4: [Clean_Code](q1/score_checker.py)
