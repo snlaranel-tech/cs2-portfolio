@@ -5,7 +5,7 @@ score = int(input("Enter your score: "))
 #Asks for a new number if the entered value is outside the allowed range using a loop.
 while score < 0 or score > 100:
     print("Invalid score")
-    score = int(input("Please enter a valid number: ")) 
+    score = int(input("Please enter a valid score: ")) 
 
 #Determines the values aappropriate performance classification to be printed.
 if 90 <= score <= 100:
