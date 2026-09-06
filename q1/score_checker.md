@@ -1,8 +1,31 @@
+# Clean Decision Code Makeover: Student Score Checker
+**Name:** Shiery Nicole L. Aranel
+**Section:** 8-Dahlia
+---
+## Activity Overview
+
+In this activity, I improved a Student Score Checker program by applying proper coding standards and
+selection structures.
+The program only accepts a student score from 0 to 100 and determines the appropriate classification.
+
+The classifications are:
+| Score | Classification |
+|---:|---|
+| 90–100 | Outstanding |
+| 0–74 | Needs Improvement |
+
+Scores below 0 or above 100 are considered invalid.
+
 Part 1: Questions
 Input: The program needs the user to input their numerical score as an integer.
 Boundary: The minimum valid score is 0.
 Boundary: The maximum valid score is 100.
-Possible Outputs: The possible outputs the program can print based on the inputs are; "Outstanding", "Very Satisfactory", "Satisfactory", and "Needs Improvement"
+Possible Outputs: The possible outputs the program can print based on the inputs are; 
+  1. "Invalid score"
+  2. "Outstanding"
+  3. "Very Satisfactory"
+  4. "Satisfactory"
+  5. "Needs Improvement"
 Selection Pattern: Which part uses a boundary condition?
 Selection Pattern: Which part uses multiple decision paths?
 
@@ -30,3 +53,5 @@ ELSE IF score >= 0 AND score < 75 THEN
 END
 
 Part 4: [Clean_Code](q1/score_checker.py)
+
+Part 5: 
