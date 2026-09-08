@@ -32,7 +32,8 @@ Selection Pattern: The number validation part (while score < 0 or score > 100:) 
 Selection Pattern: The if-elif part during classification uses multiple decision paths.
 
 Part 2: Flowchart
-<img width="1933" height="2003" alt="Flowchart P2" src="https://github.com/user-attachments/assets/4038924f-edaf-48c2-a424-6df1e89f98c7" />
+<img width="1933" height="2003" alt="scorezz - Main" src="https://github.com/user-attachments/assets/7157ca18-d7f0-4bc1-a9a2-827f7e07ddbf" />
+
 
 Part 3: Pseudocode
 START
