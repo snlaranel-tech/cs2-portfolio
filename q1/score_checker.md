@@ -4,7 +4,7 @@
 ---
 ## Activity Overview
 
-In this activity, I improved a Student Score Checker program by applying proper coding standards and
+In this activity, I learned how to improve a Student Score Checker program by applying proper coding standards and
 selection structures.
 The program only accepts a student score from 0 to 100 and determines the appropriate classification.
 
@@ -28,8 +28,8 @@ Possible Outputs: The possible outputs the program can print based on the inputs
   3. "Very Satisfactory"
   4. "Satisfactory"
   5. "Needs Improvement"
-Selection Pattern: Which part uses a boundary condition?
-Selection Pattern: Which part uses multiple decision paths?
+Selection Pattern: The number validation part (while score < 0 or score > 100:) and the score classification section, both use boundary conditions.
+Selection Pattern: The if-elif part during classification uses multiple decision paths.
 
 Part 2: Flowchart
 <img width="1933" height="2003" alt="Flowchart P2" src="https://github.com/user-attachments/assets/4038924f-edaf-48c2-a424-6df1e89f98c7" />
@@ -66,6 +66,6 @@ Testing Reflection:
 7. Yes, my initial tests failed due to syntax errors in the input and conditional statements. For the input() it lacked a fully closed parenthesis (Ex: (input("Please enter a valid score: ") ). To fix it, a closed parenthesis was added. For the conditional statements, the greater than symbol and less than symbol were switched around (Ex: score > 0 or score < 100). To fix it the symbols were switched around.
 
 Reflection: 
-1. How did selection structures make the program more useful?
-2. How did proper comments and readable formatting improve your program?
-3. Why is it useful to plan the program using a flowchart and pseudocode before writing the code?
+1. The selection structures (if, elif, and else), helped the program make decisions and execute specific code blocks with their right conditions, therefore aiding the score categorization by evaluating the entered scores numerical value and its proper output.
+2. The comments, proper formatting, and use of meaningful variables improved the previous code by making it easier to understand, maintain, and debug if anything were to go wrong.
+3. Planning using flow charts and pseudocode before proceeding to code writing helps the user visually map out the code logic and structure in simpler form without having to worry about any special missing characters and syntax rules that come with proper coding.
