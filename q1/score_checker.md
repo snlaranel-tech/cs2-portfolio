@@ -29,9 +29,9 @@ Possible Outputs: The possible outputs the program can print based on the inputs
   4. "Satisfactory"
   5. "Needs Improvement"
 
->Selection Pattern: The number validation part (while score < 0 or score > 100:) and the score classification section, both use boundary conditions.
+Selection Pattern: The number validation part (while score < 0 or score > 100:) and the score classification section, both use boundary conditions.
 
->Selection Pattern: The if-elif part during classification uses multiple decision paths.
+Selection Pattern: The if-elif part during classification uses multiple decision paths.
 
 Part 2: Flowchart
 <img width="1933" height="2003" alt="scorezz - Main" src="https://github.com/user-attachments/assets/7157ca18-d7f0-4bc1-a9a2-827f7e07ddbf" />
