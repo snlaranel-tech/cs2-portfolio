@@ -42,31 +42,23 @@ INPUT score
 
 
 WHILE score < 0 OR score > 100
-
-DISPLAY "Invalid score"
-
-DISPLAY "Please enter a valid score: "
+  DISPLAY "Invalid score"
+  DISPLAY "Please enter a valid score: "
 
 INPUT score
 
-
 IF score >= 90 AND score <= 100 THEN
-
   DISPLAY "Outstanding"
   
 ELSE IF score >= 80 AND score < 90 THEN
-
   DISPLAY "Very Satisfactory"
   
 ELSE IF score >= 75 AND score < 80 THEN
-
   DISPLAY "Satisfactory"
   
 ELSE IF score >= 0 AND score < 75 THEN
-
   DISPLAY "Needs Improvement"
-  
-  
+   
 END
 
 Part 4: [Clean_Code](score_checker.py)
