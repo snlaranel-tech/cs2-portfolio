@@ -54,7 +54,7 @@ ELSE IF score >= 0 AND score < 75 THEN
   
 END
 
-Part 4: [Clean_Code](q1/score_checker.py)
+Part 4: [Clean_Code](score_checker.py)
 
 Part 5:
 <img width="890" height="251" alt="comscciii" src="https://github.com/user-attachments/assets/ec0260a7-1922-44da-bafb-fa8edd97b266" />
