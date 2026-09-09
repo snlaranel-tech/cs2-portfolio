@@ -39,19 +39,10 @@ Message |
 > Write your answer here.
 ---
 # Part B - Program Design
-Before writing your program, create either a **flowchart or pseudocode** showing its logic.
 ## Flowchart
-Insert your flowchart below.
 ![Workshop Validator Flowchart](workshop_validator_flowchart.png)
-OR
-## Pseudocode
 
-```text
-START
-Write your pseudocode here.
-END
-```
-
+``
 Your design should show:
 - user input
 - validation decisions
@@ -59,7 +50,7 @@ Your design should show:
 - accepted registration
 - rejected registration.
 ---
-# Part C - Program Implementation
+# Part C - Program Implementatio
 ## Programming Language
 > Write the programming language used.
 ## Source Code File
@@ -164,7 +155,6 @@ Write the actual output here.
 > Explain why the output is correct or incorrect.
 ---
 # Reflection
-Answer briefly.
 ### 1. Why should a program validate input before processing it?
 > Write your answer here.
 ### 2. What is the difference between input validation and output verification?
