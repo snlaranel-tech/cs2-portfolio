@@ -190,78 +190,132 @@ Choose any **three tests** from Part D.
 ## Verification Test 1
 **Input:**
 
+
 Student name: Bianca Di Angelo
+
 Student age: 15
+
 Grade level: 10
+
 Email: maria@gmail.com
+
 Registration code: CS2026
+
 
 
 **Expected Output:**
 
+
 REGISTRATION ACCEPTED!!
+
 Student: Bianca Di Angelo
+
 Age: 15
+
 Grade Level: 10
+
 Email: maria@gmail.com
+
 Registration Code: CS2026
+
 
 **Actual Output:**
 
+
 REGISTRATION ACCEPTED!!
+
 Student: Bianca Di Angelo
+
 Age: 15
+
 Grade Level: 10
+
 Email: maria@gmail.com
+
 Registration Code: CS2026
 
+
 **Result:** PASS
+
 **Explanation:**
+
 > The output is accepted by the program because all of the inputs satisfy the program's validation requirements. The student has a valid name, age, grade level, email format, and an exactly 6-character registration code.
+
 ## Verification Test 2
+
 **Input:**
 
+
 Student name: Bianca Di Angelo
+
 Student age: fourteen
+
 Grade level: 10
+
 Email: maria@gmail.com
+
 Registration code: CS2026
+
 
 **Expected Output:**
 
+
 REGISTRATION NOT ACCEPTED
+
 Age must be a valid number.
+
 
 **Actual Output:**
 
+
 REGISTRATION NOT ACCEPTED
+
 Age must be a valid number.
 
+
 **Result:** PASS
+
 **Explanation:**
+
 > This is test passed because "fourteen" cannot be converted into an integer. The ValueError exception catches the invalid input and does not accept the registration.
----
+
+
 ## Verification Test 3
+
 **Input:**
 
+
 Student name: Bianca Di Angelo
+
 Student age: 15
+
 Grade level: 10
+
 Email: Bianca.gmail.com
+
 Registration code: CS2026
+
 
 **Expected Output:**
 
+
 REGISTRATION NOT ACCEPTED
+
+
 Invalid email
+
 
 **Actual Output:**
 
+
 REGISTRATION NOT ACCEPTED
+
 Invalid email
 
 **Result:** PASS
+
 **Explanation:**
+
 > The test passed because the entered email does not contain the required @ symbol. Therefore, it fails the program's email pattern validation.
 
 # Reflection
