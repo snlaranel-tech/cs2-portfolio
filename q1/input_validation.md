@@ -17,7 +17,7 @@ The program validates:
 
 ---
 # Part A - Validation Requirements
-<img width="523" height="326" alt="Screenshot 2026-09-09 210700" src="https://github.com/user-attachments/assets/a81c219c-cae1-4f5b-b006-313126274693" />
+<img width="434" height="273" alt="image" src="https://github.com/user-attachments/assets/090915f2-f2dc-4e04-8233-d6295e0c1ae9" />
 
 ---
 ## Validation Questions
