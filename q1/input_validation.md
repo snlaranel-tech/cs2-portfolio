@@ -33,8 +33,64 @@ The program validates:
 > Write your answer here.
 ---
 # Part B - Program Design
-## Flowchart
-![Workshop Validator Flowchart](workshop_validator_flowchart.png)
+## Pseudocode
+// Global variable
+is_valid = True
+
+FUNCTION print_error(message)
+    is_valid = False
+    PRINT "\n----------------------------"
+    PRINT "REGISTRATION NOT ACCEPTED"
+    PRINT message
+    PRINT "------------------------------"
+END FUNCTION
+
+// Name validation
+name = TRIM(INPUT("Enter student name: "))
+IF name == "" THEN
+    print_error("Student name is required.")
+END IF
+
+// Age validation
+age_input = TRIM(INPUT("Enter student age: "))
+age = TO_INTEGER(age_input)
+IF age < 11 OR age > 18 THEN
+    print_error("Age must be from 11 to 18")
+END IF
+
+// Grade level validation
+TRY
+    grade_level = TO_INTEGER(TRIM(INPUT("Enter student grade level: ")))
+    IF grade_level < 7 OR grade_level > 12 THEN
+        print_error("Invalid Grade Level")
+    END IF
+CATCH ValueError
+    print_error("Grade level must be a valid number.")
+END TRY
+
+// Email validation
+email = INPUT("Enter student email:")
+IF NOT ("@" IN email AND "." IN email) THEN
+    print_error("Invalid email")
+END IF
+
+// Registration code validation
+regis_code = TRIM(INPUT("Enter workshop registration code: "))
+IF LENGTH(regis_code) != 6 THEN
+    print_error("The registration code must contain exactly 6 characters.")
+END IF
+
+// Final status check
+IF is_valid == True THEN
+    PRINT "\n------------------------------"
+    PRINT "REGISTRATION ACCEPTED!!"
+    PRINT "------------------------------"
+    PRINT "Student: " + name
+    PRINT "Age: " + age
+    PRINT "Grade Level: " + grade_level
+    PRINT "Email: " + email
+    PRINT "Registration Code: " + regis_code
+END IF
 
 ``
 Your design should show:
