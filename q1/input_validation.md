@@ -17,14 +17,8 @@ The program validates:
 
 ---
 # Part A - Validation Requirements
-| Data Captured | Expected Input | Validation Type | Invalid Input Example | Validation Rule | Error
-Message |
-|---|---|---|---|---|---|
-| Student Name | text | Presence check | (blank) | The input must not be blank or empty | "REGISTRATION NOT ACCEPTED" "Student name is required." |
-| Age | Integer from 11 to 18 | Range check| 23 | The input must be an integer from 11 to 18 | "REGISTRATION NOT ACCEPTED" "Age must be from 11 to 18" |
-| Grade Level | (7, 8, 9, 10, 11, 12) | Range check | 5 | The input must be either 7, 8, 9, 10, 11, or 12 | "REGISTRATION NOT ACCEPTED" "Invalid Grade Level" |
-| Email Address | Standard email format containing “@” and “.” | Format check | Zizibrc.pshs/Zizi@brcpshs | The input must include both “@” and “.” | "REGISTRATION NOT ACCEPTED" "Invalid email" |
-| Registration Code | 6 Characters | Length check | ZZ4 | The input must be exactly 6 characters | "REGISTRATION NOT ACCEPTED" "The registration code must contain exactly 6 characters." |
+<img width="523" height="326" alt="Screenshot 2026-09-09 210700" src="https://github.com/user-attachments/assets/a81c219c-cae1-4f5b-b006-313126274693" />
+
 ---
 ## Validation Questions
 ### 1. Why should the student name not be blank?
