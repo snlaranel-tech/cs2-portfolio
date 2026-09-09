@@ -46,16 +46,23 @@ FUNCTION print_error(message)
 END FUNCTION
 
 // Name validation
+
 name = TRIM(INPUT("Enter student name: "))
+
 IF name == "" THEN
     print_error("Student name is required.")
+    
 END IF
 
 // Age validation
+
 age_input = TRIM(INPUT("Enter student age: "))
+
 age = TO_INTEGER(age_input)
+
 IF age < 11 OR age > 18 THEN
     print_error("Age must be from 11 to 18")
+    
 END IF
 
 // Grade level validation
