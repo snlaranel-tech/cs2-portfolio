@@ -125,8 +125,10 @@ Your design should show:
 [`workshop_validator.py`](workshop_validator.py)
 ## Final Code
 ```python
+
 is_valid = True 
 
+# Error message declaration
 def print_error(message):
   global is_valid
   is_valid = False
@@ -163,11 +165,6 @@ else:
   print_error ("Invalid email")
 
 # Registration code validation
-# len(regis_code) counts how many characters are entered in regis_code
-# != means "not equal to" and detects if the input is not equal to 6 characters
-regis_code = input("Enter workshop registration code: ").strip()
-if len(regis_code) != 6:
-  print_error ("The registration code must contain exactly 6 characters.")
 
 if is_valid:
   print ("\n------------------------------")
@@ -183,14 +180,11 @@ if is_valid:
 ---
 ## Validation Techniques Used
 ### Presence Validation
-Explain where you used presence validation.
-> Write your answer here.
+> I used presence validator to validate the student name input.
 ### Data Type Validation
-Explain where you used data type validation.
-> Write your answer here.
+> I used data type validation to validate if the age input is an integer.
 ### Range Validation
-Explain where you used range validation.
-> Write your answer here.
+> I used range validation to determine the valid age range and valid grade level range.
 
 ### Acceptable Value Validation
 Explain where you used acceptable value validation.
