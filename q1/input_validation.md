@@ -155,7 +155,7 @@ if is_valid:
 ---
 ## Validation Techniques Used
 ### Presence Validation
-> The Presence Validator was used to validate the student name input.
+> The Presence Validator was used to validate the student name input and make sure it was not blank because then, the program would not have an identifier for the student registaring
 ### Data Type Validation
 > The Data Type Validation was used to validate if the age input is an integer.
 ### Range Validation
