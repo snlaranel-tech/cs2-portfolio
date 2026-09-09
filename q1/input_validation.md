@@ -189,81 +189,81 @@ Explain the length rule you used.
 Choose any **three tests** from Part D.
 ## Verification Test 1
 **Input:**
-```text
+
 Student name: Bianca Di Angelo
 Student age: 15
 Grade level: 10
 Email: maria@gmail.com
 Registration code: CS2026
 
-```
+
 **Expected Output:**
-```text
+
 REGISTRATION ACCEPTED!!
 Student: Bianca Di Angelo
 Age: 15
 Grade Level: 10
 Email: maria@gmail.com
 Registration Code: CS2026
-```
+
 **Actual Output:**
-```text
+
 REGISTRATION ACCEPTED!!
 Student: Bianca Di Angelo
 Age: 15
 Grade Level: 10
 Email: maria@gmail.com
 Registration Code: CS2026
-```
+
 **Result:** PASS
 **Explanation:**
 > The output is accepted by the program because all of the inputs satisfy the program's validation requirements. The student has a valid name, age, grade level, email format, and an exactly 6-character registration code.
 ## Verification Test 2
 **Input:**
-```text
+
 Student name: Bianca Di Angelo
 Student age: fourteen
 Grade level: 10
 Email: maria@gmail.com
 Registration code: CS2026
-```
+
 **Expected Output:**
-```text
+
 REGISTRATION NOT ACCEPTED
 Age must be a valid number.
-```
+
 **Actual Output:**
-```text
+
 REGISTRATION NOT ACCEPTED
 Age must be a valid number.
-```
+
 **Result:** PASS
 **Explanation:**
 > This is test passed because "fourteen" cannot be converted into an integer. The ValueError exception catches the invalid input and does not accept the registration.
 ---
 ## Verification Test 3
 **Input:**
-```text
+
 Student name: Bianca Di Angelo
 Student age: 15
 Grade level: 10
 Email: Bianca.gmail.com
 Registration code: CS2026
-```
+
 **Expected Output:**
-```text
+
 REGISTRATION NOT ACCEPTED
 Invalid email
-```
+
 **Actual Output:**
-```text
+
 REGISTRATION NOT ACCEPTED
 Invalid email
-```
+
 **Result:** PASS
 **Explanation:**
 > The test passed because the entered email does not contain the required @ symbol. Therefore, it fails the program's email pattern validation.
----
+
 # Reflection
 ### 1. Why should a program validate input before processing it?
 > A program should validate the input before processing it to prevent incorrect or code crashes. It also ensures that the information follows the program's requirements
