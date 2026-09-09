@@ -66,28 +66,38 @@ IF age < 11 OR age > 18 THEN
 END IF
 
 // Grade level validation
+
 TRY
     grade_level = TO_INTEGER(TRIM(INPUT("Enter student grade level: ")))
     IF grade_level < 7 OR grade_level > 12 THEN
         print_error("Invalid Grade Level")
     END IF
+    
 CATCH ValueError
     print_error("Grade level must be a valid number.")
+    
 END TRY
 
 // Email validation
+
 email = INPUT("Enter student email:")
+
 IF NOT ("@" IN email AND "." IN email) THEN
     print_error("Invalid email")
+    
 END IF
 
 // Registration code validation
+
 regis_code = TRIM(INPUT("Enter workshop registration code: "))
+
 IF LENGTH(regis_code) != 6 THEN
     print_error("The registration code must contain exactly 6 characters.")
+    
 END IF
 
 // Final status check
+
 IF is_valid == True THEN
     PRINT "\n------------------------------"
     PRINT "REGISTRATION ACCEPTED!!"
@@ -97,6 +107,7 @@ IF is_valid == True THEN
     PRINT "Grade Level: " + grade_level
     PRINT "Email: " + email
     PRINT "Registration Code: " + regis_code
+    
 END IF
 
 ``
