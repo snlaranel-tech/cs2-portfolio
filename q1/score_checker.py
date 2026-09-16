@@ -1,7 +1,7 @@
-# Asks the user to input their numerical grade as an integer.
+# Asks the user to input their score as an integer.
 score = int(input("Enter your score: "))
 
-#Validates if the entered numerical score is within the allowed range of 0 to 100.
+#Validates if the entered score is within the allowed range of 0 to 100.
 #Asks for a new number if the entered value is outside the allowed range using a loop.
 while score < 0 or score > 100:
     print("Invalid score")
