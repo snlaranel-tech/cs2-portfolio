@@ -2,7 +2,7 @@
 # defining a print error message to display for all invalid inputs
 # global is_valid searches for the variable is_valid outside of the code block
 
-is_valid = True  # Tracks if all inputs are valid and is a global variable
+is_valid = True  # Tracks if all inputs are valid and is considered a global variable
 
 def print_error(message):
   global is_valid
