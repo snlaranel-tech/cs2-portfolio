@@ -38,6 +38,7 @@ Part 2: Flowchart
 
 
 Part 3: Pseudocode
+
 START
 
 INPUT score
