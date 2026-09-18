@@ -1,5 +1,6 @@
 # Fundamentals of Cybersecurity and Data Privacy
 **Activity:** PSHS Secure Club Registration System
+
 **Name:** Shiery Nicole L. Aranel
 **Section:** 8 - Dahlia
 **Quarter:** 1
