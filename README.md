@@ -16,3 +16,5 @@ LINKS:
 >[input_validation.md](q1/input_validation.md)
 
 >[cybersecurity.md](q1/cybersecurity.md)
+
+>[secure_registration.py](q1/secured_registration.py)
