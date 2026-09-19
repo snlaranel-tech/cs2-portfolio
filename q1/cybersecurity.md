@@ -16,27 +16,28 @@ expected, and appropriate input.
 # Part A - Cybersecurity Threat Analysis
 ## Assigned Case
 
-**Case Number:**
-**Case Title:**
-> Briefly describe the case here.
+**Case Number: 2**
+
+**Case Title: Fake Prize**
+> A student supposedly wins a prize but must provide personal and payment information.
 ---
 ### 1. What cybersecurity threat is shown?
-> Write your answer here.
+> The cybersecurity threat being shown is Phishing.
 ### 2. What warning signs make the situation suspicious?
-> Write your answer here.
+> One of the biggest warning signs is the fact the student supposedly won a prize, yet has to input payment information to claim it, another similar warning sign is the need for personal information which would not usually be necessary when being given a prize, the final warning sign is the abruptness as there might be no reason for the student to win a prize in the first place. 
 ### 3. What may be affected?
 Check or describe all that apply:
-- Data
-- Account
+- Data: yes
+- Account: yes
 - Application
 - Device
 - Network
-- Financial information
-> Explain your answer.
+- Financial information: yes
+> Only the data, account, and financial information would be affected because the student is being asked about their personal information and payment information which would give the scammer access to their accounts.
 ### 4. What information could be exposed or misused?
-> Write your answer here.
+> The information that could be exposed or misused are the students full name, address or contact information, basic student information, email address, account usernames and passwords, bank account/s, and credit/debit card information
 ### 5. What should the user do to reduce the risk?
-> Write your answer here.
+> The student should not click on just any link they see without double checking, not provide personal information on unverified websites, delete or report any suspicious messages, and if anything similar to this happens again they should verify the prize through official organizations and such.
 ---
 # Part B - Data Privacy and Secure Data Capture
 A proposed Club Registration System wants to collect the following information.
