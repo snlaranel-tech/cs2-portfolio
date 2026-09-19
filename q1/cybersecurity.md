@@ -71,9 +71,9 @@ Message |
 ---
 ## Secure Data Capture Questions
 ### 1. What should your program accept?
-> Write your answer here.
+> My program should only accept Student Name, Section, Club Choice, School Email and Attendance Status
 ### 2. What should your program reject?
-> Write your answer here.
+> My program should reject Password, OTP, Home Address, Banking Information
 ### 3. How do your validation rules help reduce incorrect or unsafe input?
 > Write your answer here.
 ---
