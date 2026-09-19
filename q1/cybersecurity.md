@@ -44,7 +44,7 @@ A proposed Club Registration System wants to collect the following information.
 Determine whether each item is really necessary.
 | Data | Collect / Do Not Collect | Reason |
 |---|---|---|
-| Student Name | | |
+| Student Name | collect | |
 | Section | | |
 | Club Choice | | |
 | School Email | | |
