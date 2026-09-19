@@ -44,20 +44,19 @@ A proposed Club Registration System wants to collect the following information.
 Determine whether each item is really necessary.
 | Data | Collect / Do Not Collect | Reason |
 |---|---|---|
-| Student Name | Collect | |
-| Section | Collect | |
-| Club Choice | Collect | |
-| School Email | Collect | |
-| Attendance Status | Collect | |
-| Password | Do not collect | |
-| OTP | Do not collect | |
-| Home Address | Do not collect | |
-
-| Parent Bank Account | | |
+| Student Name | Collect | The club organization needs to identify you |
+| Section | Collect | So the organizations know where to commonly find you and know your class adviser |
+| Club Choice | Collect | So you can register into your desired club |
+| School Email | Collect | The club can easily contact you for any announcements |
+| Attendance Status | Collect | So the club can mark your absence or presence during club meetings and determine your activeness |
+| Password | Do not collect | This is a personal piece of information that is unnecessary and should not be used in a basic club organization |
+| OTP | Do not collect | This is a personal piece of information that is unnecessary and should not be used in a basic club organization |
+| Home Address | Do not collect | This is a personal piece of information that is unnecessary and should not be needed in a basic club organization that will take place on school grounds |
+| Parent Bank Account | Do not collect | This is a personal piece of information that is unnecessary because the club does not need to access your parents bank account |
 ---
 ## Privacy Question
 Why is it safer to collect only information that the program actually needs?
-> Write your answer here.
+> It is safer to collect only needed information because it allows you to be easily identifiable and easy to contact while not violating any privacy laws or unnecessary intrusion.
 ---
 # Part C - Security-Focused Validation Rules
 Complete the table before writing your program.
