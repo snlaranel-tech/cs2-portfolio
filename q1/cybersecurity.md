@@ -44,14 +44,14 @@ A proposed Club Registration System wants to collect the following information.
 Determine whether each item is really necessary.
 | Data | Collect / Do Not Collect | Reason |
 |---|---|---|
-| Student Name | collect | |
-| Section | | |
-| Club Choice | | |
-| School Email | | |
-| Attendance Status | | |
-| Password | | |
-| OTP | | |
-| Home Address | | |
+| Student Name | Collect | |
+| Section | Collect | |
+| Club Choice | Collect | |
+| School Email | Collect | |
+| Attendance Status | Collect | |
+| Password | Do not collect | |
+| OTP | Do not collect | |
+| Home Address | Do not collect | |
 
 | Parent Bank Account | | |
 ---
