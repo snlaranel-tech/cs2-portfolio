@@ -31,7 +31,7 @@ except ValueError:
 # Grade level (gl) validation
 try:
   grade_level = int(input("Enter student grade level: ").strip())
-  if not grade_level >= 7 and grade_level <= 12:
+  if not (7 <= grade_level <= 12):
     print_error ("Invalid Grade Level")
 except ValueError:
   print_error("Grade level must be a valid number.")
