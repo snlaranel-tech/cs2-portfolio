@@ -79,16 +79,9 @@ Message |
 ---
 # Part D - Secure Program Implementation
 ## Program
-Create a simple **PSHS Club Registration System**.
-The program should collect only:
-- Student Name
-- Section
-- Club Choice
-- School Email
 
-- Attendance Status
-It should **not request passwords, OTPs, banking information, or unnecessary personal information**.
----
+>[secure_registration.py](secure_registration.py)
+
 ## Source Code File
 [`secure_registration.py`](secure_registration.py)
 ---
