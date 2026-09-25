@@ -15,16 +15,15 @@ if not name:
   print_error("Error: Student name is required.")
 
 # Section Validation
-section = str(input("Enter class section: ").strip())
-# List of valid section inputs
 valid_sec = ["Dahlia", "Sampaguita", "Rosal", "Ilang-ilang"]
+section = input("List of sections: (Dahlia, Sampaguita, Rosal, Ilang-ilang)\n" "Enter a section from the list:\n"
+).strip()
 if section not in valid_sec:
   print_error("Error: Please enter a valid section.")
 
 # Club Choice Validation
-club = str(input("Enter chosen club: ").strip())
-# List of valid club choices
 valid_club = ["Robotics", "Science", "Mathematics", "Programming"]
+club = input("List of clubs: (Robotics, Science, Mathematics, Programming)\n" "Enter a chosen club from the list: " ).strip()
 if club not in valid_club:
   print_error(" Error: Please choose a valid club.")
 
