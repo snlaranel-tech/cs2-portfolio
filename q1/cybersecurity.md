@@ -63,11 +63,11 @@ Complete the table before writing your program.
 | Data Captured | Expected Input | Possible Risk | Invalid Input Example | Validation Rule | Error
 Message |
 |---|---|---|---|---|---|
-| Student Name | | | | | |
-| Section | | | | | |
-| Club Choice | | | | | |
-| School Email | | | | | |
-| Attendance Status | | | | | |
+| Student Name | Student name | blank input | (blank) | Student name must not be blank | Student name is required. |
+| Section | Dahlia, Sampaguita, Rosal, Ilang-Ilang | invalid/other input | Lily | Input must come from the list of valid sections | Please enter a valid section. |
+| Club Choice | Robotics, Science, Mathematics, Programming | invalid/other input | Baking | Input must come from the list of valid club choices | Please choose a valid club. |
+| School Email | email containing both "@" and a "." | invalid/other input without a "@" and a "." | Zii.royall.high | Input must contain both an "@" and a "." | Please enter a valid email. |
+| Attendance Status | Present, Late, Absent | invalid/other input | On vacation | Input must either be Present, Late, or Absent | Please enter attendance status. |
 ---
 ## Secure Data Capture Questions
 ### 1. What should your program accept?
@@ -113,21 +113,21 @@ if section not in valid_sec:
 valid_club = ["Robotics", "Science", "Mathematics", "Programming"]
 club = input("List of clubs: (Robotics, Science, Mathematics, Programming)\n" "Enter a chosen club from the list: ").strip()
 if club not in valid_club:
-  print_error(" Error: Please choose a valid club.")
+  print_error("Error: Please choose a valid club.")
 
 # Email validation
 email = input("Enter student email: ").strip()
 if "@" in email and "." in email:
     pass
 else:
-  print_error ("Error: Please enter a valid email")
+  print_error ("Error: Please enter a valid email.")
 
 # Attendance status
 attendance = str(input("Enter student attendance status: ").strip())
 # List of different attendance statuses
 valid_att = ["Present", "Late", "Absent"]
 if attendance not in valid_att:
-  print_error("Error: Please enter  attendance status.")
+  print_error("Error: Please enter a valid attendance status.")
 
 if is_valid:
   print ("\n------------------------------")
@@ -143,45 +143,46 @@ if is_valid:
 ---
 ## Security Practices Applied
 ### Required Input
-> I handled blank input by checking if a student name was even entered or not using "if not". If the name is blank, the program displays an error message saying, "Student name is required." This prevents the program from accepting a registration without a student name.
+> I handled blank input by checking if a student name was even entered or not using "if not". If the name is blank, the program displays an error message saying, "Student name is required." This stops the program from accepting a registration without a student name.
 ### Allowed Values
-> The only fields that use a list of predefined values to accept inputs are the section, club choice, and attendance. Each of these can only accept fixed inputs, if the user decides to enter an input outside the list of given choices, the program displays an error message and will not accept the registration
+> The only fields that use a list of predefined values to accept inputs are the section, club choice, and attendance. Each of these can only accept fixed inputs, if the user decides to enter an input outside the list of given choices, the program displays an error message and will not accept the registration.
 ### Format Check
-> Explain your simple email validation rule.
+> My simple email validation rule checks if the email input contains both "@" and a ".", if either of the symbols are missing, the program displays an error message and will not accept the registration.
 ### Error Messages
-> Explain why clear error messages are useful.
+> The error messages I added are useful for informing the user about why the data they inputted may not have been accepted and can overall help people understand the process of entering valid information into a program.
 ### Data Minimization
-> Explain what information you intentionally did NOT collect and why.
+> The passwords, OTPs, home addresses, or banking information were intentionally not collected because they are not necessary for school club registration. The program is only required to collect appropriate information, in doing so, it protects students' privacy, reduces the risk of exposing personal data, and makes the program overall safer to use.
 ---
 # Part E - Testing and Reflection
 ## Testing
 | Test | Input Situation | Expected Output | Actual Output | Result |
 |---:|---|---|---|---|
-| 1 | All data valid | | | |
-| 2 | Blank student name | | | |
-| 3 | Invalid section | | | |
-
-| 4 | Invalid club choice | | | |
-| 5 | Email missing `@` | | | |
-| 6 | Email missing `.` | | | |
-| 7 | Invalid attendance status | | | |
-| 8 | Different valid inputs | | | |
-Use:
-- **PASS** if the actual result matches the expected result.
-- **FAIL** if it does not.
+| 1 | All data valid | REGISTRATION ACCEPTED!! |REGISTRATION ACCEPTED!! | PASS |
+| 2 | Blank student name | REJECTED Error: Student name is required. | REJECTED Error: Student name is required. | PASS |
+| 3 | Invalid section | REJECTED Error: Please enter a valid section. | REJECTED Error: Please enter a valid section. | PASS |
+| 4 | Invalid club choice | REJECTED Error: Please choose a valid club. | REJECTED Error: Please choose a valid club. | PASS |
+| 5 | Email missing `@` | REJECTED Error: Please enter a valid email. | REJECTED Error: Please enter a valid email. | PASS |
+| 6 | Email missing `.` | REJECTED Error: Please enter a valid email. | REJECTED Error: Please enter a valid email. | PASS |
+| 7 | Invalid attendance status | REJECTED Error: Please enter a valid attendance status. | REJECTED Error: Please enter a valid attendance status. | PASS |
+| 8 | Different valid inputs | REGISTRATION ACCEPTED!! | REGISTRATION ACCEPTED!! | PASS |
 ---
 # Reflection
 ### 1. What is one cybersecurity threat that can affect an application or user?
-> Write your answer here.
+> One cybersecurity threat that can affect an application or user is phishing. Phishing is where attackers send fake messages or websites to look like trusted companies or organizations to trick users into giving away their personal information such as passwords or banking information.
 ### 2. How can users reduce the risk of phishing or suspicious messages?
-> Write your answer here.
+> Users can reduce the risk of phishing by not clicking suspicious links, checking the sender, and avoiding sharing personal information with unknown or untrusted sources on the website without a proper background check and the use of logical explanations.
 ### 3. How can validation rules improve the security of user input?
-> Write your answer here.
+> Validation rules can improve the security of user inputs by helping make sure that users enter correct and appropriate information, and rejecting incorrect information inputs.
 ### 4. Why should a program avoid collecting unnecessary personal information?
-> Write your answer here.
+> A program should avoid collecting unnecessary personal information because if it has no unnecessary information in the first place, there would barely be any data to misuse or invade the privacy of the user.
 ### 5. How did SG7's input validation concepts become security practices in SG8?
-> Write your answer here.
+> SG7's input validation concepts became security practices in SG8 by using validation rules that will check user inputs before accepting them. For example, the program presented today validates the presence of student names, proper sections, proper club choices, proper email formats, and attendance statuses, while also collecting only the information needed for registration, nothing more.
 ---
+
+# AI Prompt used
+> How to fix this code so the list of predetermined values for sections and club choices are displayed along with the line of code asking for it.
+
+
 # Files for This Activity
 - [`secure_registration.py`](secure_registration.py)
 - `cybersecurity.md`
