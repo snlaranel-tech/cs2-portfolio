@@ -24,7 +24,7 @@ if section not in valid_sec:
 valid_club = ["Robotics", "Science", "Mathematics", "Programming"]
 club = input("List of clubs: (Robotics, Science, Mathematics, Programming)\n" "Enter a chosen club from the list: ").strip()
 if club not in valid_club:
-  print_error(" Error: Please choose a valid club.")
+  print_error("Error: Please choose a valid club.")
 
 # Email validation
 email = input("Enter student email: ").strip()
