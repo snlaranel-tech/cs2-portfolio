@@ -62,11 +62,17 @@ Why is it safer to collect only information that the program actually needs?
 Complete the table before writing your program.
 | Data Captured | Expected Input | Possible Risk | Invalid Input Example | Validation Rule | Error
 Message |
+
 |---|---|---|---|---|---|
+
 | Student Name | Student name | blank input | (blank) | Student name must not be blank | Student name is required. |
+
 | Section | Dahlia, Sampaguita, Rosal, Ilang-Ilang | invalid/other input | Lily | Input must come from the list of valid sections | Please enter a valid section. |
+
 | Club Choice | Robotics, Science, Mathematics, Programming | invalid/other input | Baking | Input must come from the list of valid club choices | Please choose a valid club. |
+
 | School Email | email containing both "@" and a "." | invalid/other input without a "@" and a "." | Zii.royall.high | Input must contain both an "@" and a "." | Please enter a valid email. |
+
 | Attendance Status | Present, Late, Absent | invalid/other input | On vacation | Input must either be Present, Late, or Absent | Please enter attendance status. |
 ---
 ## Secure Data Capture Questions
