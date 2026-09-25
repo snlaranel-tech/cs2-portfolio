@@ -38,7 +38,7 @@ attendance = str(input("Enter student attendance status: ").strip())
 # List of different attendance statuses
 valid_att = ["Present", "Late", "Absent"]
 if attendance not in valid_att:
-  print_error("Error: Please enter  attendance status.")
+  print_error("Error: Please enter a valid attendance status.")
 
 if is_valid:
   print ("\n------------------------------")
