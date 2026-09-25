@@ -75,7 +75,7 @@ Message |
 ### 2. What should your program reject?
 > My program should reject Password, OTP, Home Address, Banking Information
 ### 3. How do your validation rules help reduce incorrect or unsafe input?
-> Write your answer here.
+> The validation rules help reduce incorrect or unsafe input by ensuring that all the entered information is correct and complete. First of all, the program checks the presence of a student name, then, the section and club choices are included in the list of valid options to enter, next, the email is checked to contain an "@" and a ".", finally, the attendance status is checked if it is a valid input, If any input is to be incorrect, the program will display an error message and the registration will not be accepted. This all reduces the possibility of invalid data being accepted, and will protect a students privacy and personal information.
 ---
 # Part D - Secure Program Implementation
 ## Program
@@ -87,14 +87,15 @@ Message |
 ---
 ## Final Code
 ```python
-# Paste your final program here.
+#final code here
+
 ```
 ---
 ## Security Practices Applied
 ### Required Input
-> Explain how you handled blank input.
+> I handled blank input by checking if a student name was even entered or not using "if not". If the name is blank, the program displays an error message saying, "Student name is required." This prevents the program from accepting a registration without a student name.
 ### Allowed Values
-> Explain which fields accept only predefined values.
+> The only fields that use a list of predefined values to accept inputs are the section, club choice, and attendance. Each of these can only accept fixed inputs, if the user decides to enter an input outside the list of given choices, the program displays an error message and will not accept the registration
 ### Format Check
 > Explain your simple email validation rule.
 ### Error Messages
