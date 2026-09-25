@@ -16,19 +16,18 @@ if not name:
 
 # Section Validation
 valid_sec = ["Dahlia", "Sampaguita", "Rosal", "Ilang-ilang"]
-section = input("List of sections: (Dahlia, Sampaguita, Rosal, Ilang-ilang)\n" "Enter a section from the list:\n"
-).strip()
+section = input("List of sections: (Dahlia, Sampaguita, Rosal, Ilang-ilang)\n" "Enter a section from the list: ").strip()
 if section not in valid_sec:
   print_error("Error: Please enter a valid section.")
 
 # Club Choice Validation
 valid_club = ["Robotics", "Science", "Mathematics", "Programming"]
-club = input("List of clubs: (Robotics, Science, Mathematics, Programming)\n" "Enter a chosen club from the list: " ).strip()
+club = input("List of clubs: (Robotics, Science, Mathematics, Programming)\n" "Enter a chosen club from the list: ").strip()
 if club not in valid_club:
   print_error(" Error: Please choose a valid club.")
 
 # Email validation
-email = input("Enter student email: ")
+email = input("Enter student email: ").strip()
 if "@" in email and "." in email:
     pass
 else:
