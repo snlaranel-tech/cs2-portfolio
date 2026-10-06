@@ -20,20 +20,12 @@ if not name:
 
 # Age validation
 age_input = input("Enter student age: ").strip()
-
-try:
-  age = int(age_input)
-  if not (11 <= age <= 18):
-    print_error("Age must be from 11 to 18")
-
-except ValueError:
+age = int(age_input)
+if not (11 <= age <= 18):
   print_error("Age must be a valid number.")
 # Grade level (gl) validation
-try:
-  grade_level = int(input("Enter student grade level: ").strip())
-  if not (7 <= grade_level <= 12):
-    print_error ("Invalid Grade Level")
-except ValueError:
+grade_level = int(input("Enter student grade level: ").strip())
+if not (7 <= grade_level <= 12):
   print_error("Grade level must be a valid number.")
 
 # Email validation
