@@ -16,7 +16,7 @@ change = calculate_change(payment, total)
 print ("Total Cost: PHP", total)
 
 # Determines if the amount paid is sufficient, and if not, asks for an additional payment.
-if change >= total:
+if change >= 0:
   print ("Change: PHP", change)
 else:
   shortage = (change)
