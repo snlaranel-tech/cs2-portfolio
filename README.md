@@ -2,7 +2,7 @@
 ## Shiery Nicole L. Aranel
 ## 8 - Dahlia
 
-LINKS: 
+LINKS for Q1: 
 >[Aranel_Shiery_Distance.py](q1/Aranel_Shiery_Distance.py)
 
 >[hello.py](q1/hello.py)
@@ -18,3 +18,6 @@ LINKS:
 >[cybersecurity.md](q1/cybersecurity.md)
 
 >[secure_registration.py](q1/secure_registration.py)
+
+LINKS for Q2: 
+>
