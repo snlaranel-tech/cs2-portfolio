@@ -2,7 +2,7 @@
 def calculate_total(price, quantity):
   return price * quantity
 
-# Calculate_change calculates the difference between the payment amount and the total cost. A positive result means the person buyer gets change, zero means exact payment, and a negative result means a shortage in the payment.
+# Calculate_change calculates the difference between the payment amount and the total cost. A positive result means the buyer gets change, zero means the buyer gave the exact payment, and a negative result means the buyer has a shortage in their payment.
 def calculate_change(payment, total): 
   return payment - total
 
