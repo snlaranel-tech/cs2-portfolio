@@ -2,15 +2,13 @@
 def calculate_total(price, quantity):
   return price * quantity
 
-# Calculate_change calculates the difference between the payment amount and the total cost. A positive result means the buyer gets change, zero means the buyer gave the exact payment, and a negative result means the buyer has a shortage in their payment.
+# Calculate_change() calculates the difference between the payment amount and the total cost to determine whether or not the buyer gets change, gave the exact payment, or has a shortage.
 def calculate_change(payment, total): 
   return payment - total
 
-# assigning variables
 price = float(input("Enter item price: "))
 quantity = int(input("Enter quantity: "))
 payment = float(input("Enter amount paid: "))
-
 total = calculate_total(price, quantity)
 change = calculate_change(payment, total)
 
@@ -24,7 +22,7 @@ else:
 
 # DOCUMENTATION QUESTIONS
 # 1. What does each function do?
-# -calculate_total() multiplies the item price by its quantity to compute the purchase's total cost. calculate_change() subtracts the payment by the total cost from the previous function.
+# -calculate_total() multiplies the item price by its quantity to compute the purchase's total cost. calculate_change() subtracts the payment by the total cost from the previous function. A positive result means the buyer gets change, zero means the buyer gave the exact payment, and a negative result means the buyer has a shortage in their payment.
 # 2. What is the difference between the parameters price and quantity and the actual arguments passed to the function?
 # -The parameters price and quantity are variables presented in the function that receives values. Actual arguments are the values assigned to the function when it is called.
 # 3. Where is the returned total stored, and how is it reused?
