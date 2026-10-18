@@ -20,4 +20,4 @@ LINKS for Q1:
 >[secure_registration.py](q1/secure_registration.py)
 
 LINKS for Q2: 
->
+>[Canteen_Purchase_Calculator.py](q2/Canteen_Purchase_Calculator.py)
