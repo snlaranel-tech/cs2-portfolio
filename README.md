@@ -21,3 +21,5 @@ LINKS for Q1:
 
 LINKS for Q2: 
 >[Canteen_Purchase_Calculator.py](q2/Canteen_Purchase_Calculator.py)
+
+>[Student_Performance_Evaluator.py](q2/Student_Performance_Evaluator.py)
