@@ -19,6 +19,11 @@ def is_eligible(average, completed_tasks):
 s1 = float(input("Enter Score 1: "))
 s2 = float(input("Enter Score 2: "))
 s3 = float(input("Enter Score 3: "))
+
+if not (0 <= s1 <= 100) or not (0 <= s2 <= 100) or not (0 <= s3 <= 100):
+  print("Input is invalid!! Please enter a score from 0 to 100.")
+  break
+
 completed_tasks = int(input("Completed Tasks: "))
 
 #calling the functions
