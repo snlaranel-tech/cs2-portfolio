@@ -22,19 +22,22 @@ s3 = float(input("Enter Score 3: "))
 
 if not (0 <= s1 <= 100) or not (0 <= s2 <= 100) or not (0 <= s3 <= 100):
   print("Input is invalid!! Please enter a score from 0 to 100.")
-  break
+else:
 
-completed_tasks = int(input("Completed Tasks: "))
-
+  completed_tasks = int(input("Completed Tasks: "))
+  if not 0 <= completed_tasks <= 5:
+    print("Error! Completed tasks must be from 0 to 5.")
+  else:
+    
 #calling the functions
-average = calculate_average(s1, s2, s3)
-performance = get_performance(average)
-eligible = is_eligible(average, completed_tasks)
+    average = calculate_average(s1, s2, s3)
+    performance = get_performance(average)
+    eligible = is_eligible(average, completed_tasks)
 
 #Displaying results
-print (f"Average: {average:.2f}")
-print (f"Performance: {performance}")
-print (f"Eligible for Challenge: {eligible}")
+    print (f"Average: {average:.2f}")
+    print (f"Performance: {performance}")
+    print (f"Eligible for Challenge: {eligible}")
 
 #Documentation Questions
 
