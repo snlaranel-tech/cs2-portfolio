@@ -1,7 +1,7 @@
 #Exercise 1: My School Bag
 school_items = ["Notebook", "Pen", "Calculator", "Laptop", "Book"] #[] defines a list and stores it within the variable school_items. The "" encasing each item identifies it as a string or str
 print("All Five Items:") #Displays what is inside the () accordingly
-#Below uses print and school_items[] to directly grab a specific item from the defined list, this is also called indexing. Python indexes typically start from 0
+#Below uses print and school_items[] to directly grab a specific item from the defined list, this is also called indexing. Arrays always start their index counting from 0
 print(school_items[0])
 print(school_items[1])
 print(school_items[2])
